@@ -14,6 +14,26 @@
     {
       "source": "/api/(.*)",
       "destination": "/api/index.py"
+    },
+    {
+      "source": "/health",
+      "destination": "/api/index.py"
+    },
+    {
+      "source": "/tasks",
+      "destination": "/api/index.py"
+    },
+    {
+      "source": "/tasks/(.*)",
+      "destination": "/api/index.py"
+    },
+    {
+      "source": "/ai/(.*)",
+      "destination": "/api/index.py"
+    },
+    {
+      "source": "/analytics/(.*)",
+      "destination": "/api/index.py"
     }
   ]
 }
