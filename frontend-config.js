@@ -13,7 +13,7 @@ const API_CONFIG = (() => {
     // GitHub Pages - 使用Vercel API
     if (hostname.includes('github.io')) {
         return {
-            baseUrl: 'https://YOUR_VERCEL_PROJECT_URL',  // 替换为实际Vercel URL
+            baseUrl: 'https://life-management-system-v35.vercel.app',  // 你的实际Vercel URL
             platform: 'github-pages'
         };
     }
@@ -28,7 +28,7 @@ const API_CONFIG = (() => {
     
     // 默认使用Vercel
     return {
-        baseUrl: 'https://YOUR_VERCEL_PROJECT_URL',  // 替换为实际Vercel URL
+        baseUrl: 'https://life-management-system-v35.vercel.app',  // 你的实际Vercel URL
         platform: 'production'
     };
 })();
