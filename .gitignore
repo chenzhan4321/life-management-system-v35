@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Vercel
+.vercel
+.env*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Runtime
+*.pid
+*.seed
+*.coverage
+.nyc_output
+
+# Node.js (如果使用)
+node_modules/
+npm-debug.log*
+
+# 临时文件
+*.tmp
+*.temp
